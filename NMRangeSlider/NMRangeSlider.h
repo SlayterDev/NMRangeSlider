@@ -83,6 +83,7 @@
 
 
 - (void)addSubviews;
+- (CGRect)trackRect;
 
 //Setting the lower/upper values with an animation :-)
 - (void)setLowerValue:(float)lowerValue animated:(BOOL) animated;
